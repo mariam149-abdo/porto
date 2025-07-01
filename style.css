@@ -711,6 +711,7 @@ nav ul{
     min-height:100vh;
     width:100%;
     position:relative;
+    margin-bottom:60px;
 }
 #home .container {
     display:flex;
@@ -719,20 +720,28 @@ nav ul{
     margin:auto;
 }
 #home .container img{
-    width:400px;
+    width:100%;
     margin-top:30px;
+    height:50%;
 }
 #home a.about{
     position:absolute;
-    margin:auto 15%;
+    margin:auto 5%;
 }
 #home a.cv{  
-    left: 65%;
+    left: 56%;
+}
+#about p{
+    width:100%;
+}
+#skills .all-skills{
+    display:flex;
+    flex-direction: column;
 }
 #skills .all-skills .technical-Skills{
     width:100%;
     opacity:0;
-    margin:auto;
+    margin: auto auto 20px;
 }
 #skills .all-skills .soft-skills{
     width:100%;
@@ -742,7 +751,7 @@ nav ul{
 }
 #experience .experience-item{
     width:90%;
-    margin-bottom:60px;
+    margin:0 30px 60px;
 }
 #education .education-item{
     width:100%;
@@ -755,8 +764,15 @@ nav ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width:50%;
+    width:100%;
     margin:auto auto 90px;
+}
+#projects .cards .content{
+    padding-left:50px;
+    flex-wrap: wrap;
+}
+#projects .cards .content p{
+    width:80%;
 }
 #projects img {
     width:100%;
