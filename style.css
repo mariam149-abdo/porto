@@ -6,7 +6,7 @@
     box-sizing:border-box;
 }
 :root{
-    --bg-primay:#001f3f;
+    --bg-primary:#001f3f;
     --primary-color:#00ff00;
     --secondary-color: #003366;
 }
@@ -17,7 +17,7 @@ body{
     height:100%;
     width:100%;
     font-family: "Poppins", sans-serif;
-    background-color:var(--bg-primay);
+    background-color:var(--bg-primary);
 }
 nav{
     padding:30px 70px;
@@ -71,7 +71,7 @@ nav ul li a:hover{
     justify-content:space-between;
     align-items:center;
     padding:60px;
-    margin:60px 60px 0;
+    margin:auto;
 }
 #home .container .info{
     margin-right:40px;
@@ -472,6 +472,7 @@ nav ul li a:hover{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width:95%;
 }
 #projects img{
     width:50%;
@@ -481,6 +482,7 @@ nav ul li a:hover{
     margin:10px;
 }
 .card .content{
+    width:50%;
     padding-left:10px;
 }
 .card .content h2{
@@ -534,11 +536,11 @@ nav ul li a:hover{
 }
 #education .education-item{
     opacity:0;
-    width:900px;
+    width:90%;
     height:210px;
     border:2px solid var(--primary-color);
     border-radius:10px;
-    background-color:var(--bg-primay);
+    background-color:var(--bg-primary);
     margin: 30px auto;
     display:flex;
     flex-direction:row;
@@ -587,9 +589,9 @@ nav ul li a:hover{
     font-weight:700;
 }
 #experience {
-    background-color:var(--bg-primay);
+    background-color:var(--bg-primary);
     min-height:100%;
-    margin:100px;
+    margin:20px auto 50px;
 }
 #experience .experience-item{
     position:relative;
@@ -597,12 +599,12 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
     flex-direction:column;
-    width:900px;
+    width:90%;
     height:300px;
     border:2px solid #fff;
     border-radius:10px;
-    background-color:var(--bg-primay);
-    margin:20px auto 0;
+    background-color:var(--bg-primary);
+    margin:auto;
     box-shadow:0 0 15px 10px var(--primary-color);
     opacity:0;
 }
@@ -629,7 +631,7 @@ nav ul li a:hover{
     padding:9px;
     border-radius:50px;
     background-color:var(--primary-color);
-    box-shadow: 0 0 10px 3px var(--bg-primay);
+    box-shadow: 0 0 10px 3px var(--bg-primary);
     color:#fff;
     font-size:17px;
     font-weight:400;
@@ -665,7 +667,7 @@ nav ul li a:hover{
     border:2px solid #fff;
     border-radius:10px;
     box-shadow: 0 0 10px 10px var(--primary-color);
-    background-color: var(--bg-primay);
+    background-color: var(--bg-primary);
     color:#fff;
     opacity:0;
     padding-bottom:15px;
@@ -674,13 +676,13 @@ nav ul li a:hover{
     text-align:center;
     margin-bottom:10px;
     border-radius:10px;
-    background-color:var(--bg-primay);
+    background-color:var(--bg-primary);
 }
 #contact form textarea{
     height:300px;
     text-align:center;
     margin-bottom:10px;
-    background-color: var(--bg-primay);
+    background-color: var(--bg-primary);
     border-radius:10px;
     resize: none;
 }
@@ -701,8 +703,32 @@ nav ul li a:hover{
     font-weight:500;
     font-size:19px;
 }
-
 @media (max-width:1300px){
+nav{
+    padding:0;
+    margin:0;
+}
+nav h1{
+    padding: 0 20px;
+}
+nav ul li a{
+    padding-right:20px;
+}
+#home a.about{
+    position:absolute;
+    margin:auto 25%;
+}
+#home a.cv{  
+    left: 50%;
+}
+}
+#home{
+    min-height:100vh;
+    width:100%;
+    position:relative;
+    margin-bottom:60px;
+}
+@media (max-width:700px){
 nav ul{
     display:none;
 }
