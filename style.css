@@ -69,7 +69,7 @@ nav ul li a:hover{
 .mobile-menu {
     display: none;
     position: absolute;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     flex-direction: column;
     width: 100%;
     height: 150;
@@ -82,7 +82,7 @@ nav ul li a:hover{
 .mobile-menu a {
     display: none;
     margin-bottom: 10px;
-    color: #fff;
+    color: var(--primary-color);
     font-size: 18px;
 } 
 .animation-menu{
