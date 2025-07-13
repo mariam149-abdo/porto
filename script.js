@@ -58,4 +58,4 @@ menubtn.addEventListener("click", () => {
     menua.forEach(link =>{link.style.display="flex"});
     menu.classList.add(animation);
   }
-}) 
+})
