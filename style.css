@@ -190,6 +190,11 @@ nav ul li a:hover{
     font-size:18px;
     text-decoration: none;
 }
+.icons:hover{
+    color:#fff;
+     border:2px solid #fff;
+    transform: scale(1.2);
+}
 #home .container img{
     width:50%;
     height:400px;
